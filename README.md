@@ -24,3 +24,13 @@ The provided linear model indicates an r-squared value of 71%; R-squared values 
 From the statistical data provided in the lot_summary the current manufacturing data in lots 1 and 2 do meet the designated design specifications, as both lots maintain a relatively similar mean and median which respectively also do not exceed the variance specification. Whereas, lot 3 exhibits the most incremental variance in which exceeds the design and manufacturing specifications. 
 
 ![lot_summary:](./Resources/lot_summary.png)
+
+## T-Tests on Suspension Coils
+While both lot 1 and 2 maintain values that do not vary substantially from the population mean, lot 3 has as p-value of 0.042. This indicates that there is evidence which supports that the PSI is slightly statistically different from the population mean of 1500 pounds per square inch. 
+
+ ### T-test Results: 
+ 
+![t_test_total:](./Resources/t_test_total.png) 
+![t_test_lot1:](./Resources/t_test_lot1.png) 
+![t_test_lot2:](./Resources/t_test_lot2.png) 
+![t_test_lot3:](./Resources/t_test_lot3.png) 
