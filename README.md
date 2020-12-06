@@ -33,3 +33,14 @@ While both lot 1 and 2 maintain values that do not vary substantially from the p
 ![t_test_lot1:](./Resources/t_test_lot1.png) 
 ![t_test_lot2:](./Resources/t_test_lot2.png) 
 ![t_test_lot3:](./Resources/t_test_lot3.png) 
+
+## Study Design: MechaCar vs Competition
+To improve upon our current analysis and fair our MechaCar design against our competitors, we can create an additional analysis on the vehicles fuel efficiency. By investigating an additional factor such as the fuel efficiency, we are better equipped to inform customer’s decision making. 
+**1.	What metric or metrics are you going to test?**
+A vehicle’s fuel efficiency is determined by how far it can travel per unit of fuel used. Therefore, miles per gallon (mpg) will be the metric we use to test our hypothesis. 
+**2.	What is the null hypothesis or alternative hypothesis?**
+The null hypothesis is that the fuel efficiency of all vehicles of the same class will remain constant. The alternative hypothesis is that the fuel efficiency of all vehicles of the same class will differ. 
+**3.	What statistical test would you use to test the hypothesis? And why?**
+In order to test this hypothesis, I would employ an ANOVA test. ANOVA tests are useful in this instance because it allows us to determine whether there is a statistically significant difference between our mean fuel efficiency and our competitors mean fuel efficiency. This way of statistical testing is preferred over a t-test as we are calculating multiple values, performing multiple t-tests would allow for a greater margin of error. 
+**4.	What data is needed to run the statistical test?**
+The sample dataset required to perform our statistical test would comprise of approximately 50 vehicles within the same class accompanied by their respective fuel efficiency’s in mpg. 
