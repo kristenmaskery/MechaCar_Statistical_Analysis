@@ -23,3 +23,4 @@ The provided linear model indicates an r-squared value of 71%; R-squared values 
 
 From the statistical data provided in the lot_summary the current manufacturing data in lots 1 and 2 do meet the designated design specifications, as both lots maintain a relatively similar mean and median which respectively also do not exceed the variance specification. Whereas, lot 3 exhibits the most incremental variance in which exceeds the design and manufacturing specifications. 
 
+![lot_summary:](./Resources/lot_summary.png)
